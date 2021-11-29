@@ -1,0 +1,51 @@
+div{
+	border: 1px solid black;
+	background-color: white;
+	position: absolute;
+	width: 120px;
+	height: 180px;
+	border-radius: 10px;
+	top: 100px;
+}
+
+.d1{
+	transform: rotate(-20deg);
+	left: 80px;
+}
+
+.d3{
+	transform: scaleY(2);
+	left: 300px;
+}
+.d5{
+	transform: rotate(20deg);
+	left: 580px;
+	transform: skewY(25deg);
+}
+
+p{
+	position: absolute;
+	font-size: 18px;
+	left: 7px;
+	bottom: 136px;
+}
+
+.p1, .p3, .p5{
+	color: red;
+}
+
+.s1, .s3, .s5{
+	font-size: 20px;
+	left: 4px;
+	top: 10px;
+}
+
+.s1, .s3, .s5{
+	color: red;
+}
+
+p+p+p{
+	position: absolute;
+	font-size: 11px;
+	top: 45px;
+}
